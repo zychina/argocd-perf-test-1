@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: perf-test1-app1
-        image: anolis-registry.cn-hongkong.cr.aliyuncs.com/openanolis/nginx:1.14.1-8.6
+        image: anolis-registry.cn-zhangjiakou.cr.aliyuncs.com/openanolis/nginx:1.14.1-8.6
         ports:
         - containerPort: 80
         volumeMounts:
