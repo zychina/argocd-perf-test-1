@@ -5,7 +5,6 @@ metadata:
   namespace: clawtest
   labels:
     app: app1
-type: Opaque
 data:
   key1: key1value
   key2: key2value
