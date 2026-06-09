@@ -10,7 +10,7 @@ spec:
     - ReadWriteMany
   resources:
     requests:
-      storage: 10Mi
+      storage: 10Gi
   selector:
     matchLabels:
       alicloud-pvname: perf-test1-app1-nas-pv
